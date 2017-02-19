@@ -125,7 +125,7 @@ print(s)
 #    print(bin(var))
 
 #s = encodestr(ssidstr)
-cnt = 10000
+cnt = 0
 while cnt > 0:
     udpClientSocket.sendto('oooooo'.encode(),ADDR)
     udpClientSocket.sendto('oooodd'.encode(),ADDR)
