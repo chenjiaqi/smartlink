@@ -137,6 +137,7 @@ while cnt > 0:
     udpClientSocket.sendto('oooo1d'.encode(),ADDR)
     udpClientSocket.sendto('oooo1d'.encode(),ADDR)
     udpClientSocket.sendto('oooo1d'.encode(),ADDR)
+
     """
     for i in range(0,len(ssidstr)):
         rest = [0,0,0,0]
